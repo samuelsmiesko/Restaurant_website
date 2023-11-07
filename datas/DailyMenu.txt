@@ -1,0 +1,36 @@
+
+Pondelok 
+Polievka 1/ Paradajková; v cene
+Polievka 2/ Fazuľová; 0,7€
+*
+Menu 1/ Kuracie prsia; 6,5€
+Menu 2/ Bryndzové halušky; 6,7€
+Menu 3/ Maďarský guláš; 7,2€ 
+Utorok
+Polievka 1/ Paradajková; v cene
+Polievka 2/ Fazuľová; 0,7€
+*
+Menu 1/ Kuracie prsia; 6,5€
+Menu 2/ Bryndzové halušky; 6,7€ 
+Menu 3/ Maďarský guláš; 7,2€ 
+Streda
+Polievka 1/ Paradajková; v cene
+Polievka 2/ Fazuľová; 0,7€
+*
+Menu 1/ Kuracie prsia; 6,5€
+Menu 2/ Bryndzové halušky; 6,7€ 
+Menu 3/ Maďarský guláš; 7,2€ 
+Štvrtok
+Polievka 1/ Paradajková; v cene
+Polievka 2/ Fazuľová; 0,7€
+*
+Menu 1/ Kuracie prsia; 6,5€
+Menu 2/ Bryndzové halušky; 6,7€ 
+Menu 3/ Maďarský guláš; 7,2€
+Piatok
+Polievka 1/ Paradajková; v cene
+Polievka 2/ Fazuľová; 0,7€
+*
+Menu 1/ Kuracie prsia; 6,5€
+Menu 2/ Bryndzové halušky; 6,7€ 
+Menu 3/ Maďarský guláš; 7,2€ 
