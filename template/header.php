@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <title>Restaurant Bowls</title>
 
 </head>
@@ -31,6 +32,8 @@
                 <li><a class="dropdown-item " href="core.php">Ponúkame</a></li>
                 <li><a class="dropdown-item " href="dailyMenu.php">Denné menu</a></li>
                 <li><a class="dropdown-item " href="menu.php">Jedálny listok</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item " href="album.php">Album</a></li>
             </ul>
         </div>
     </div>
@@ -46,6 +49,9 @@
         </li>
         <li class="nav-item">
             <a class="nav-link text-light " href="menu.php">Jedálny listok</a>
+        </li>
+        <li class="ms-3 nav-item">
+            <a class="nav-link text-light " href="album.php">Album</a>
         </li>
         </ul>
     </div> 
