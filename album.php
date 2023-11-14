@@ -1,14 +1,42 @@
 <!-- Carousel -->
 <?php include('template/header.php'); ?>
-<div class=" container-fluid  justify-center mt-5">
+
+<style>
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 10%;
+  border: 2px solid whitesmoke;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+
+</style>
+<div style='background-color:antiquewhite;' class=" container-fluid text-center  p-5">
     <div  id="demo" class="carousel slide" data-bs-ride="carousel">
 
     <!-- Indicators/dots -->
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button style='background-color:brown;height:15px' type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active slider"></button>
+        <button style='background-color:brown;height:15px' type="button" data-bs-target="#demo" data-bs-slide-to="1" class="slider"></button>
+        <button style='background-color:brown;height:15px' type="button" data-bs-target="#demo" data-bs-slide-to="2" class="slider"></button>
+        <button style='background-color:brown;height:15px' type="button" data-bs-target="#demo" data-bs-slide-to="3" class="slider"></button>
     </div>
 
     <!-- The slideshow/carousel -->
@@ -28,12 +56,18 @@
     </div>
 
     <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-    </button>
+      <div class="d-none d-md-block">
+        <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span  class="carousel-control-prev-icon "></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
     </div>
+    <button type="button" class="btn btn-secondary m-4" aria-label="Left Align">
+      <i ><a class="dropdown-item " href="gallery.php"><span class="fa fa-book fa-lg m-1" aria-hidden="true"></span>Gallery</a></i>
+    </button>
 </div>
 <?php include('template/footer.php'); ?>

@@ -32,8 +32,9 @@
                 <li><a class="dropdown-item " href="core.php">Ponúkame</a></li>
                 <li><a class="dropdown-item " href="dailyMenu.php">Denné menu</a></li>
                 <li><a class="dropdown-item " href="menu.php">Jedálny listok</a></li>
+                <li><a class="dropdown-item " href="album.php">Kontakt</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item " href="album.php">Album</a></li>
+                <li><a class="dropdown-item " href="kontakt.php">Album</a></li>
             </ul>
         </div>
     </div>
@@ -52,6 +53,9 @@
         </li>
         <li class="ms-3 nav-item">
             <a class="nav-link text-light " href="album.php">Album</a>
+        </li>
+        <li class="ms-3 nav-item">
+            <a class="nav-link text-light " href="kontakt.php">Kontakt</a>
         </li>
         </ul>
     </div> 
