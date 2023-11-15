@@ -7,15 +7,9 @@
         transition: height 2s;
     }
 
-    img:hover {
-        width: 80%;
-        height: auto;
-        
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+
+
+
 </style>
 
 <div class="container text-center p-5">
@@ -31,7 +25,11 @@
 
     foreach($output  as $file) {
         
-        echo "<div class='justify-center';'><img class='m-4' src=datas/fotos/album/$file></div>";
+        echo "<div class='justify-center';'><img 
+        data-bs-toggle='modal' 
+        data-bs-target='#myModal' 
+        class='m-4' 
+        src=datas/fotos/album/$file></div>";
     }
 
 
@@ -40,6 +38,43 @@
 
 
     ?>
+    <div  class="modal fade" id="myModal">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Foto</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <img  id="selected" src="example(this)">
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zavrieť</button>
+            </div>
+
+            </div>
+        </div>
     </div>
 </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function example(source){
+          $("img").click(function(){
+            var source = $(this).attr("src");
+            
+            document.getElementById("selected").src=source;
+            
+          });
+});
+</script>
+
 <?php include('template/footer.php'); ?>
